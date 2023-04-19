@@ -5,6 +5,9 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 import os
 import time
+from keep_alive import keep_alive
+
+keep_alive()
 
 # Configurar el navegador de Chrome
 chrome_options = Options()
